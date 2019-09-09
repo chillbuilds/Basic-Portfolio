@@ -7,6 +7,10 @@
       margin: 0 auto;
   }
 
+  body {
+    background-image: url("assets/images/papyrus-dark.png");
+  }
+
   #header {
     position: absolute;
     width: 100%;
@@ -28,7 +32,6 @@
       margin-top: -40px;
       margin-bottom: 0px;
       padding: 30px;
-      border-bottom: 5px solid #
       float: left;
     }
 
@@ -86,12 +89,9 @@
     }
 
     img {
-        /* position: relative; */
         padding-right: 30px;
-        padding-bottom: 10px;
-        width: 250px;
-        float: left;
-
+        padding-bottom: 30px;
+        z-index: -2;
     }
 
     body {
@@ -113,6 +113,7 @@
         border-top: 10px solid #4aaaa5;
     }
 
-    #portfolio-images {
+    .planet {
+        width: 400px;
         float: left;
     }
