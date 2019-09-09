@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+  .wrapper {
+      width: 960px;
+      margin: 0 auto;
+  }
+
+  #header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 95px;
+    margin: 0;
+    background: #eee;
+    z-index: -1;
+    float: left;
+  }
+
+  h1 {
+      position: absolute;
+      color: #ffffff;
+      background: #4aaaa5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      margin-top: -40px;
+      margin-bottom: 0px;
+      padding: 30px;
+      border-bottom: 5px solid #
+      float: left;
+    }
+
+    #page-links {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #777777;
+        margin-top: 40px;
+        z-index: 1;
+    }
+
+    #contact-link {
+        padding-right: 20px;
+        float: right;
+    }
+
+    #portfolio-link {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-right: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        float: right;
+    }
+
+    #about-me-link {
+        padding-left: 20px;
+        float: right;
+    }
+
+    #page-body {
+        position: relative;
+        width: 100%;
+        padding-left: 26px;
+        padding-top: 16px;
+        padding-bottom: 30px;
+        text-align: left;
+        background: #ffffff;
+        border: 2px solid #DBDBDB;
+        bottom: -60px;
+        float: left;
+      }
+
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #4aaaa5;
+        padding-bottom: 30px;
+        border-bottom: 3px solid #DBDBDB;
+    }
+
+    a {
+        color: #777777;
+        text-decoration: none;
+    }
+
+    img {
+        /* position: relative; */
+        padding-right: 30px;
+        padding-bottom: 10px;
+        width: 250px;
+        float: left;
+
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #777777;
+    }
+
+    footer {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 5px;
+        bottom: -30px;
+        clear: both;
+        background: #666666;
+        color: #999999;
+        border-top: 10px solid #4aaaa5;
+    }
+
+    #portfolio-images {
+        float: left;
+    }
