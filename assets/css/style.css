@@ -7,32 +7,46 @@
       margin: 0 auto;
   }
 
-  body {
-    background-image: url("assets/images/papyrus-dark.png");
-  }
+    body {
+        background-image: url("assets/images/papyrus-dark.png");
+    }
+    
+#header {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding-bottom: 95px;
+        margin: 0;
+        background: #eee;
+        z-index: -1;
+        float: left;
+    }
+    
+    h1 {
+        position: absolute;
+        color: #ffffff;
+        background: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        margin-top: -40px;
+        margin-bottom: 0px;
+        padding: 30px;
+        float: left;
+    }
+    
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: #4aaaa5;
+        padding-bottom: 30px;
+        border-bottom: 3px solid #DBDBDB;
+    }
 
-  #header {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding-bottom: 95px;
-    margin: 0;
-    background: #eee;
-    z-index: -1;
-    float: left;
-  }
-
-  h1 {
-      position: absolute;
-      color: #ffffff;
-      background: #4aaaa5;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 30px;
-      margin-top: -40px;
-      margin-bottom: 0px;
-      padding: 30px;
-      float: left;
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #777777;
     }
 
     #page-links {
@@ -44,6 +58,26 @@
         z-index: 1;
     }
 
+    a {
+        color: #777777;
+        text-decoration: none;
+    }
+
+    img {
+        float: left;
+        z-index: -2;
+    }
+
+    .index-img {
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    .portfolio-img {
+        padding: 30px;
+    }
+
+    
     #contact-link {
         padding-right: 20px;
         float: right;
@@ -75,31 +109,6 @@
         float: left;
       }
 
-    h2 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 30px;
-        color: #4aaaa5;
-        padding-bottom: 30px;
-        border-bottom: 3px solid #DBDBDB;
-    }
-
-    a {
-        color: #777777;
-        text-decoration: none;
-    }
-
-    img {
-        padding-right: 30px;
-        padding-bottom: 30px;
-        z-index: -2;
-    }
-
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        color: #777777;
-    }
-
     footer {
         position: absolute;
         text-align: center;
@@ -107,13 +116,68 @@
         padding-top: 40px;
         padding-bottom: 5px;
         bottom: -30px;
-        clear: both;
         background: #666666;
         color: #999999;
         border-top: 10px solid #4aaaa5;
+        float: left;
     }
 
     .planet {
-        width: 400px;
+        padding: 30px;
+        float: left;
+    }
+
+    .planet-tag { 
+        position: absolute;
+        text-align: center;
+        width: 75%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: #777777;
+        background: #4aaaa5;
+        margin: 20px;
+        bottom: 40px;
+        left: 10px;
+        opacity: .75;
+        float: left;
+    }
+
+    #mercury {
+        position: relative;
+        float: left;
+    }
+
+    #venus {
+        position: relative;
+        float: left;
+    }
+
+    #earth{
+        position: relative;
+        float: left;
+    }
+
+    #mars {
+        position: relative;
+        float: left;
+    }
+
+    #jupiter {
+        position: relative;
+        float: left;
+    }
+
+    #saturn {
+        position: relative;
+        float: left;
+    }
+
+    #uranus {
+        position: relative;
+        float: left;
+    }
+
+    #neptune {
+        position: relative;
         float: left;
     }
