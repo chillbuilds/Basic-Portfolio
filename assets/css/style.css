@@ -83,35 +83,31 @@
         margin-top: 40px;
         z-index: 1;
     }
-
-    #contact-link {
-        padding-right: 20px;
-        float: right;
-    }
-
+    
     a:hover {
         background: #D8D8D8;
     }
+    
+    #contact-link {
+        position:relative;
+        left: 160px;
+        float: right;
+    }
 
     #portfolio-link {
+        position: relative;
         padding-left: 20px;
         padding-right: 20px;
+        right: 45px;
         border-right: 1px solid #cccccc;
         border-left: 1px solid #cccccc;
         float: right;
     }
 
-    #portfolio-link:hover {
-
-    }
-
     #about-me-link {
-        padding-left: 20px;
+        position: relative;
+        right: 235px;
         float: right;
-    }
-
-    #about-me-link:hover {
-
     }
 
     #page-body {
@@ -199,6 +195,7 @@
     position: absolute;
     text-align: center;
     width: 100%;
+    right: 5px;
     padding-top: 40px;
     padding-bottom: 5px;
     bottom: -30px;
@@ -206,4 +203,5 @@
     color: #999999;
     border-top: 10px solid #4aaaa5;
     float: left;
+    z-index: 3;
     }
